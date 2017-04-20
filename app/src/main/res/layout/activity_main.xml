@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_memberId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="用户id"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_area_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="区域id"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_track_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="行为类型"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_page_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="当前页面id"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_page_col"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="页面栏位"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_col_position"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="栏位位置"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_col_pos_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="搜索关键词"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_entry_method"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:hint="进入方式"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:hint="当前页url"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全局init" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="埋点init" />
+
+</LinearLayout>
